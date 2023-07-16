@@ -6,16 +6,15 @@ function Homepage(){
         <div>
             <div className="MainLayout">
                 <div className="layout">
-                    <div className="sublayout">
-                        <img className="welcome" src="https://kalvium.community/images/home_hero.gif" alt="" />
-                        <h2></h2>
+                    <div className="sublayout"> 
+                        <img className="welcome" src="/resources/welcome.gif" alt="welcome" />
                         <p>Welcome to this amazing place where you can have lots of fun and learn new things! It's a special spot where you'll experience the joy of learning and discover the wonders of magic. Enjoy every moment of your journey here!</p>
                         <p>To begin learning the courses, simply go to Livebooks. It's a platform where you can access educational materials and resources. It's like a virtual library for learning. Once you're there, you'll find a variety of courses and materials to explore and study. It's a great place to start your learning journey and access the knowledge you need. Enjoy your learning experience on Livebooks!</p>
                     </div>
 
                     <div className="display">
                         <div>
-                            <img className="whyimage" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/630cc6df6db69f0f8c9f313a_1%20flipped-p-800.png" alt="" />
+                            <img className="whyimage" src="/resources/whyimage.png" alt="image" />
                         </div>
                         <div className="text-image">
                             <h2>Why SHecodes</h2>
@@ -33,13 +32,13 @@ function Homepage(){
                             <p>Programming languages are used to write code.<br/> Each programming language has its syntax (rules and structure) and semantics (meaning and behavior). <br/>Popular programming languages include Python, Java, C++, JavaScript, and Ruby.</p>
                         </div>
                         <div>
-                            <img className="programming" src="https://miro.medium.com/v2/resize:fit:820/1*v5NRqLcyXIVNaG5KLjKIQA.png" alt="" />
+                            <img className="programming" src="/resources/programming.jpg" alt="programming" />
                         </div>
                     </div>
 
                     <div className="displaytext">
                         <div>
-                            <img className="displayimage" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/630cc6e741628433729320c2_2%20flipped-p-800.png" alt="" />
+                            <img className="displayimage" src="/resources/displayimage.png" alt="problem" />
                         </div>
                         <div className="problem">
                             <h2>How to solve a problem</h2>
@@ -53,13 +52,13 @@ function Homepage(){
                             <p>Data structures are used to organize and store data in a program, while algorithms are the step-by-step procedures used to manipulate that data. Understanding different data structures and algorithms is crucial for efficient programming.</p>
                         </div>
                         <div>
-                            <img className="dsaImage" src="https://st.depositphotos.com/1654249/2526/i/600/depositphotos_25269101-stock-photo-3d-man-thinking-with-red.jpg" alt="" />
+                            <img className="dsaImage" src="/resources/dsaimage.jpg" alt="dsaimage" />
                         </div>
                     </div>
 
                     <div className="displayoop">
                         <div>
-                            <img className="oopimage" src="https://freepngimg.com/download/temp_png/72547-thinking-photography-question-mark-man-stock.jpeg" alt="" />   
+                            <img className="oopimage" src="/resources/oopimage.jpeg" alt="oopimage" />   
                         </div>
                         <div className="ooptext">
                             <h2>what is Object-Oriented Programming (OOP)</h2>
@@ -73,7 +72,7 @@ function Homepage(){
                             <p>Programming is often part of the larger software development process. SDLC encompasses planning, requirements gathering, designing, coding, testing, deployment, and maintenance of software applications.</p>
                         </div>
                         <div>
-                            <img className="displaysldcimage" src="https://reachstudios.co.uk/wp-content/uploads/2021/09/SDLC-Banner-Image-300x300.jpg" alt="" />
+                            <img className="displaysldcimage" src="/resources/displaysldcimage.webp" alt="displayimage" />
                         </div>
                     </div>
 
@@ -85,20 +84,30 @@ function Homepage(){
                         </div>
                         <div className="roundimages">
                             <div>
-                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f30d0b4a7295f5613f_green%20(1).png" alt="" />
+                                <img className="round1" src="/resources/round1.png" alt="roundimage" />
                                 <p>Welcome to this amazing place where you can have lots of fun and learn new things! It's a special spot where you'll experience the joy of learning and discover the wonders of magic. Enjoy every moment of your journey here!</p>
                             </div>
                             <div>
-                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f4776d18431580abed_pink%20(1).png" alt="" />
+                                <img className="round1" src="/resources/round2.png" alt="roundimage" />
                                 <p>To begin learning the courses, simply go to Livebooks. It's a platform where you can access educational materials and resources. It's like a virtual library for learning.</p>
                             </div>
                             <div>
-                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f5eec0b5474ee26265_orange%20(1).png" alt="" />
+                                <img className="round1" src="/resources/round3.png" alt="roundimage" />
                                 <p> Once you're there, you'll find a variety of courses and materials to explore and study. It's a great place to start your learning journey and access the knowledge you need. Enjoy your learning experience on Livebooks!</p>
                             </div>
                         </div>
 
-                        <div></div>
+                        <div className="getstarted">
+                            <div className="getstarttext">
+                                <h2>Ready To Get Started</h2>
+                                <p>Signup to explore the SHecodes website and gain programming language.</p>
+                                <button>Signup</button>
+                            </div>
+                            <div>
+                                <img className="getstartimage" src="/resources/getstarted.png" alt="getstartimage" />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

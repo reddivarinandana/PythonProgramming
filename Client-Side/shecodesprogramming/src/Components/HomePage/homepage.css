@@ -109,9 +109,7 @@ p{
     border:1px solid red;
     margin-left: 30px;
     height: 400px;
-    width: 400px;
-    /* height: 200px;
-    width: 200px; */
+    width: 450px;
 }
 
 .roundimages{
@@ -120,7 +118,33 @@ p{
 }
 
 .round1{
-    height: 200px;
     width: 200px;
     margin-top: 40px;
+}
+
+.round1:hover{
+    width:210px;
+
+}
+
+.getstarted{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.getstarttext{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.getstartimage{
+    height: 750px;
+    margin-left: 300px;
+}
+
+button{
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 7px;
+    background-color:darkgoldenrod;
 }
