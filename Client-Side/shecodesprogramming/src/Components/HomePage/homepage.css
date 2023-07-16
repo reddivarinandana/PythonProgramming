@@ -93,4 +93,35 @@ p{
 
 .displaysldc{
     display: flex;
+    margin-top: 50px;
+}
+
+.displaysldcimage{
+    height: 500px;
+    width: 500px;
+}
+
+.sldctext{
+    margin-top: 150px;
+}
+
+.roundimages div{
+    border:1px solid red;
+    margin-left: 30px;
+    height: 400px;
+    width: 400px;
+    /* height: 200px;
+    width: 200px; */
+}
+
+.roundimages{
+    display:flex;
+    /* border:2px solid green; */
+    margin-left: 130px;
+}
+
+.round1{
+    height: 200px;
+    width: 200px;
+    margin-top: 40px;
 }

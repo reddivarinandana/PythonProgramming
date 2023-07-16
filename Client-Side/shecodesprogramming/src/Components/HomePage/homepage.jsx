@@ -68,13 +68,37 @@ function Homepage(){
                     </div>
 
                     <div className="displaysldc">
-                        <div>
+                        <div className="sldctext">
                             <h2>Software Development Life Cycle (SDLC)</h2>
                             <p>Programming is often part of the larger software development process. SDLC encompasses planning, requirements gathering, designing, coding, testing, deployment, and maintenance of software applications.</p>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <img className="displaysldcimage" src="https://reachstudios.co.uk/wp-content/uploads/2021/09/SDLC-Banner-Image-300x300.jpg" alt="" />
                         </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <div>
+                                <h2>Learn With Joy</h2>
+                            </div>
+                        </div>
+                        <div className="roundimages">
+                            <div>
+                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f30d0b4a7295f5613f_green%20(1).png" alt="" />
+                                <p>Welcome to this amazing place where you can have lots of fun and learn new things! It's a special spot where you'll experience the joy of learning and discover the wonders of magic. Enjoy every moment of your journey here!</p>
+                            </div>
+                            <div>
+                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f4776d18431580abed_pink%20(1).png" alt="" />
+                                <p>To begin learning the courses, simply go to Livebooks. It's a platform where you can access educational materials and resources. It's like a virtual library for learning.</p>
+                            </div>
+                            <div>
+                                <img className="round1" src="https://uploads-ssl.webflow.com/620ce06fa12cad2d27fb30a8/6283b4f5eec0b5474ee26265_orange%20(1).png" alt="" />
+                                <p> Once you're there, you'll find a variety of courses and materials to explore and study. It's a great place to start your learning journey and access the knowledge you need. Enjoy your learning experience on Livebooks!</p>
+                            </div>
+                        </div>
+
+                        <div></div>
                     </div>
                 </div>
             </div>
