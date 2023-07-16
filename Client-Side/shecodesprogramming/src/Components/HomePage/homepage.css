@@ -1,0 +1,96 @@
+.layout{
+    width: 95%;
+}
+
+.MainLayout{
+    display: flex;
+}
+
+.welcome{
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 70px;
+}
+
+p{
+    margin-left: 5%;
+    line-height: 25px;
+}
+
+.sublayout{
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.display{
+    display: flex;
+}
+
+.text-image{
+    margin-top: 250px;
+}
+
+.whyimage{
+    height: 800px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.programming{
+    height: 400px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.displaytext{
+    display: flex;
+}
+
+.text
+{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.problem{
+    margin-top:250px;
+}
+
+.displayimage{
+    height: 800px;
+    width: 800px;
+    margin-right: 100px;
+}
+
+.dsaimage{
+    display: flex;
+}
+
+.dsaImage{
+    height: 800px;
+    width: 800px;
+}
+
+.dsatext{
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+.displayoop{
+    display: flex;
+}
+
+.oopimage{
+    height: 800px;
+    width: 800px;
+}
+
+.ooptext{
+    margin-top: 200px;
+}
+
+.displaysldc{
+    display: flex;
+}
