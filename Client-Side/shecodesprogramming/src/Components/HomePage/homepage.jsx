@@ -80,7 +80,7 @@ function Homepage(){
                     <div>
                         <div>
                             <div>
-                                <h2>Learn with Joy</h2>
+                                <h2>Learn With Joy</h2>
                             </div>
                         </div>
                         <div className="roundimages">
