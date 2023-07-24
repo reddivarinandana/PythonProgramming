@@ -1,12 +1,11 @@
 package com.shecodesprogramming.shecodesprogramming.model;
 
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Entity
-public class coursedata {
-@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class Course {
+    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private int course_id;
 
     public int getCourse_id() {
@@ -18,14 +17,13 @@ public class coursedata {
     }
 
     public String getCourse_name() {
-        return course_name;
+        return  course_name;
     }
 
     public void setCourse_name(String course_name) {
         this.course_name = course_name;
     }
 
-    @Column
+    @Column(name = "course_name")
     private String course_name;
-
 }
