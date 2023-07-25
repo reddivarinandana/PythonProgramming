@@ -5,21 +5,31 @@ import { useSelector } from "react-redux";
 import { getTopic } from "../../Redux/Productreducer/action";
 import { useDispatch } from "react-redux";
 import Topic from "../Topicdata/topic";
+import Message from "../Message/Message"
 
 function Course() {
+
+    const [clicked, isClicked] = useState(true);
 
     const courseData = useSelector(state => state.course.courseData)
     console.log(courseData)
 
     const navigate = useNavigate()
     const dispatch = useDispatch()
-    const displayTopic = async(selectedCourseData) => {
-        await dispatch(getTopic(selectedCourseData.course_id))
-        navigate("/course")
+    const displayTopic = async(course_name) => {
+        console.log("test", course_name)
+        if(course_name === "Python") {
+            await dispatch(getTopic())
+            navigate("/course")
+            isClicked(true);
+        }else {
+            isClicked(false);
+        }
     }
 
     return (
         <div>
+            
             <div className="mainaLayout">
                 <div className="NAVBAR">
                     <h1 className="align-left">Learn the ways of the future</h1>
@@ -29,28 +39,32 @@ function Course() {
                     <img className="navimage" src="https://kalvium.community/images/livebooks_hero_img.svg" alt="" />
                 </div>
             </div>
+
             <div className="allData">
                 <div>
                     <div className='coursedata'>
                         <div className='a'>
+                            <div className="courses">
                             {
-                                courseData?.map(({course_id,course_name }) =>
-                                <div className='coursediv' key={course_id}>
+                                courseData?.map(({course_name }) =>
+                                <div className='coursediv' key={course_name}>
                                     <div>
-                                        <p id='course'  onClick={() => displayTopic(course_id)} >{course_name}</p>
+                                        <p id='course'  onClick={() => displayTopic(course_name)} >{course_name}</p>
                                     </div>
                                 </div>
                                 )
                             }
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="TOPIC">
+               { <div className="TOPIC">
                     <div>
-                        <div className="Topicdata"> <Topic/> </div>
+                        {clicked ? <div className="Topicdata"> <Topic/> </div> : <div className="Topicdata"><Message/></div>}
                     </div>
-                </div>
+                </div>}
             </div>
+
         </div>
     )
 }

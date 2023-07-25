@@ -23,8 +23,8 @@
 }
 
 .coursedata{
+        display: flex;
         margin-left: 72px;
-        border: 3px solid black;
         border-left: none;
         width: 250px;
         height: 700px;
@@ -33,7 +33,6 @@
 
 
 #course{
-        /* border: 1px solid black; */
         margin-right: 20px;
         font-size: 20px;
         padding:9px 55px;
@@ -65,4 +64,8 @@
         width: 75%;
         margin-top: 100px;
         margin-left: 40px;
+}
+
+.courses{
+        border: 3px solid black;
 }
