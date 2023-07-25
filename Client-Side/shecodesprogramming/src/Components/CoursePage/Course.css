@@ -1,18 +1,15 @@
 .mainaLayout{
-        border:px solid black;
         display: flex;
         width: 95%;
         margin-left: 70px;
+        border:5px solid black;
         background-color: #483d8b;
-        opacity: 0.9;
+        opacity: 0.8;
 }
 
-.navimage{
-        margin-left: 750px;
+.NAVBAR{
         margin-top: 40px;
 }
-
- 
 
 .align-left{
         text-align: left;
@@ -20,61 +17,52 @@
         margin-left: 50px;
 }
 
-.NAVBAR{
-        /* border:5px solid green; */
+.navimage{
+        margin-left: 750px;
         margin-top: 40px;
 }
 
-.coursetext{
-        font-size: 20px;
-}
-
 .coursedata{
-        margin-left: 72x;
-        border: 3px solid black;
-        width: 300px;
-        height: 700px;
-}
-
-.coursetext:hover{
+        margin-left: 72px;
         border: 3px solid black;
         border-left: none;
-        border-right:none ;
+        width: 250px;
+        height: 700px;
+        font-size: 20px;
 }
 
-
-.a{
-        width: 200px;
-        text-align: left;
-}
 
 #course{
+        /* border: 1px solid black; */
+        margin-right: 20px;
         font-size: 20px;
-        padding:15px 50px;
+        padding:9px 55px;
         text-align: left;
 }
 
 #course:hover{
-        border: 3px solid black;
         border-right: none;
+        border-left: none;
         cursor: pointer;
-        background-color: red	;
+}
+.a{
+        width: 250px;
+        text-align: left;
 }
 
+.coursediv:hover{
+        border:3px solid black;
+        border-left: none;
+        border-right: none;
+        background-color: red;
+}
 
+.allData{
+        display: flex;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.TOPIC{
+        width: 75%;
+        margin-top: 100px;
+        margin-left: 40px;
+}
