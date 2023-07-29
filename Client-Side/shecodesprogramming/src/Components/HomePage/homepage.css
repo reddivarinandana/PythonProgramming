@@ -40,7 +40,7 @@ p{
 .programming{
     height: 400px;
     width: 400px;
-    margin-left: 150px;
+    margin-left: 250px;
     margin-top: 80px;
 }
 
@@ -51,7 +51,7 @@ p{
 .text
 {
     margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 .problem{
@@ -103,6 +103,7 @@ p{
 
 .sldctext{
     margin-top: 150px;
+    margin-left: 100px;
 }
 
 .roundimages div{
