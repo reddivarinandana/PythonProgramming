@@ -16,7 +16,7 @@ public class CourseController {
     public Course create (@RequestBody Course Course){return CourseService.create(Course);}
 
     @GetMapping("")
-    public List<Course> getCourse(){return  CourseService.getAllCourse();}
+    public List<Course> getCourse(){return (List<Course>) CourseService.getAllCourse();}
 
     @GetMapping("/{id}")
     public Course getCourse(@PathVariable Integer id){return CourseService.getCourseById(id);}
@@ -26,4 +26,9 @@ public class CourseController {
 
     @DeleteMapping("/delete/{id}")
     public String deleteCourse(@PathVariable Integer id){return CourseService.deleteCourse(id);}
+    @GetMapping("/search")
+
+    public List<Course> getSearch(@RequestParam("query") String name){
+        return CourseService.getSearch(name);
+    }
 }

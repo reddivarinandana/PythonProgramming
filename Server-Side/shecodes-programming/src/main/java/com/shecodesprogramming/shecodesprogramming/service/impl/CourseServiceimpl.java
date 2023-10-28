@@ -32,4 +32,9 @@ public class CourseServiceimpl implements CourseService {
         return "Course is deleted Successfully";
     }
 
+    @Override
+    public List<Course> getSearch(String name) {
+        return CourseRepository.getSearch(name);
+    }
+
 }

@@ -16,5 +16,6 @@ public interface CourseService {
     public Course update(Course course);
 
     public String deleteCourse(Integer id);
+    public List<Course> getSearch(String name);
 
 }
