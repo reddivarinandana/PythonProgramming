@@ -1,0 +1,71 @@
+.mainaLayout{
+        display: flex;
+        width: 95%;
+        margin-left: 70px;
+        border:5px solid black;
+        background-color: #483d8b;
+        opacity: 0.8;
+}
+
+.NAVBAR{
+        margin-top: 40px;
+}
+
+.align-left{
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+}
+
+.navimage{
+        margin-left: 750px;
+        margin-top: 40px;
+}
+
+.coursedata{
+        display: flex;
+        margin-left: 72px;
+        border-left: none;
+        width: 250px;
+        height: 700px;
+        font-size: 20px;
+}
+
+
+#course{
+        margin-right: 20px;
+        font-size: 20px;
+        padding:9px 55px;
+        text-align: left;
+}
+
+#course:hover{
+        border-right: none;
+        border-left: none;
+        cursor: pointer;
+}
+.a{
+        width: 250px;
+        text-align: left;
+}
+
+.coursediv:hover{
+        border:3px solid black;
+        border-left: none;
+        border-right: none;
+        background-color: red;
+}
+
+.allData{
+        display: flex;
+}
+
+.TOPIC{
+        width: 75%;
+        margin-top: 100px;
+        margin-left: 40px;
+}
+
+.courses{
+        border: 3px solid black;
+}

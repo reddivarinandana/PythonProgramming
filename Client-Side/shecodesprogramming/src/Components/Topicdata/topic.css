@@ -1,0 +1,40 @@
+.rhombus{
+    height: 23px;
+    width: 20px;
+    position: absolute;
+    left: 410px;
+    margin-top: 10px;
+}
+
+.downimage{
+    height: 15px;
+    width: 15px;
+}
+
+#drop{
+    border:3px solid black;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 100px;
+    margin-top: -45px;
+}
+
+.topic{
+    text-align: left;
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 10px;
+    max-height: 1000px;
+    overflow-y: scroll;
+} 
+
+.topic:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.TopicDetails{
+    border: 3px solid black;
+}
