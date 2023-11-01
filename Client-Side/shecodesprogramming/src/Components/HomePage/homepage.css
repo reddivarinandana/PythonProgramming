@@ -1,0 +1,151 @@
+.layout{
+    width: 95%;
+}
+
+.MainLayout{
+    display: flex;
+}
+
+.welcome{
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 70px;
+}
+
+p{
+    margin-left: 5%;
+    line-height: 25px;
+}
+
+.sublayout{
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.display{
+    display: flex;
+}
+
+.text-image{
+    margin-top: 250px;
+}
+
+.whyimage{
+    height: 800px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.programming{
+    height: 400px;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.displaytext{
+    display: flex;
+}
+
+.text
+{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.problem{
+    margin-top:250px;
+}
+
+.displayimage{
+    height: 800px;
+    width: 800px;
+    margin-right: 100px;
+}
+
+.dsaimage{
+    display: flex;
+}
+
+.dsaImage{
+    height: 800px;
+    width: 800px;
+}
+
+.dsatext{
+    margin-top: 320px;
+    margin-left: 40px;
+}
+
+.displayoop{
+    display: flex;
+}
+
+.oopimage{
+    height: 800px;
+    width: 800px;
+}
+
+.ooptext{
+    margin-top: 200px;
+}
+
+.displaysldc{
+    display: flex;
+    margin-top: 50px;
+}
+
+.displaysldcimage{
+    height: 500px;
+    width: 500px;
+}
+
+.sldctext{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.roundimages div{
+    border:1px solid red;
+    margin-left: 30px;
+    height: 400px;
+    width: 450px;
+}
+
+.roundimages{
+    display:flex;
+    margin-left: 130px;
+}
+
+.round1{
+    width: 200px;
+    margin-top: 40px;
+}
+
+.round1:hover{
+    width:210px;
+
+}
+
+.getstarted{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.getstarttext{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.getstartimage{
+    height: 750px;
+    margin-left: 300px;
+}
+
+button{
+    font-size: 20px;
+    padding:10px 20px;
+    border-radius: 7px;
+    background-color:darkgoldenrod;
+}
