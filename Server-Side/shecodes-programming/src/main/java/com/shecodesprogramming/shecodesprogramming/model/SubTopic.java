@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "subtopics")
+
 public class SubTopic {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
