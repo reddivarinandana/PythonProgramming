@@ -41,6 +41,7 @@ public class SubTopicController {
     public String deleteSubTopic(@PathVariable Long id) {
         return subTopicService.deleteSubTopic(id);
     }
+    
 }
 
 
