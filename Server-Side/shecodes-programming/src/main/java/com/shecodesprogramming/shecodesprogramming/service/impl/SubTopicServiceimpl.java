@@ -38,4 +38,6 @@ public class SubTopicServiceimpl implements SubTopicService {
         subTopicRepository.deleteById(id);
         return "SubTopic deleted Successfully";
     }
+
+    
 }
