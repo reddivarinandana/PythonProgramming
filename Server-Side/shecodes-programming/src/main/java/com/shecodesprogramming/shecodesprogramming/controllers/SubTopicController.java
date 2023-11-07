@@ -26,6 +26,7 @@ public class SubTopicController {
     public List<SubTopic> getSubTopics() {
         return subTopicService.getAllSubTopics();
     }
+    
 
     @GetMapping("/{id}")
     public SubTopic getSubTopic(@PathVariable Long id) {
@@ -41,7 +42,8 @@ public class SubTopicController {
     public String deleteSubTopic(@PathVariable Long id) {
         return subTopicService.deleteSubTopic(id);
     }
-    
+
+
 }
 
 
