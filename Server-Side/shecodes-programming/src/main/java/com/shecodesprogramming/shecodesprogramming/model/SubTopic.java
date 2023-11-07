@@ -4,20 +4,20 @@ import jakarta.persistence.*;
 
 
 @Entity
-@Table(name = "subtopic")
+@Table(name = "subtopics")
 public class SubTopic {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "subTopic_Id")
+    @Column(name = "sub_topic_id")
     private Long subTopicId;
 
-    @Column(name = "subtopic_Name")
+    @Column(name = "subtopic_name")
     private String subTopicName;
 
     @Column(name = "topic_id")
     private Long topicId;
 
-    @Column(name = "subtopic_Content", length = 16000)
+    @Column(name = "subtopic_content", length = 16000)
     private String subtopicContent;
 
     public Long getSubTopicId() {
