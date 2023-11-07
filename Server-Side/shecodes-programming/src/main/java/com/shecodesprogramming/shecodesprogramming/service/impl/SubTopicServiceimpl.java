@@ -10,6 +10,7 @@ import java.util.List;
 
 @Service
 public class SubTopicServiceimpl implements SubTopicService {
+    
     @Autowired
     private SubTopicRepository subTopicRepository;
 
@@ -39,5 +40,5 @@ public class SubTopicServiceimpl implements SubTopicService {
         return "SubTopic deleted Successfully";
     }
 
-    
+
 }
