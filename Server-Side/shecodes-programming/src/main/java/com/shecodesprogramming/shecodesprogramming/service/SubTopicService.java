@@ -10,6 +10,7 @@ public interface SubTopicService {
     SubTopic getSubTopicById(Long id);
     SubTopic update(SubTopic subTopic);
     String deleteSubTopic(Long id);
+    
 }
 
 
