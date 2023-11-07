@@ -1,0 +1,183 @@
+/* course.css */
+.mainaLayout{
+        display: flex;
+        width: 95%;
+        margin-left: 70px;
+        border:4px solid black;
+        background-color: #483d8b;
+        opacity: 0.8;
+        box-sizing: border-box;
+}
+
+.NAVBAR{
+        margin-top: 40px;
+        box-sizing: border-box;
+}
+.align-left:hover{
+        color: red;
+        cursor: pointer;
+}
+
+.align-left{
+        text-align: left;
+        color: white;
+        margin-left: 50px;
+}
+
+.navimage{
+        margin-left: 650px;
+        margin-top: 40px;
+}
+
+.coursedata{
+        display: flex;
+        margin-left: 72px;
+        border-left: none;
+        width: 250px;
+        height: 700px;
+        font-size: 20px;
+}
+
+
+#course{
+        margin: 10px;
+        font-size: 20px;
+        padding:9px 55px;
+        text-align: left;
+        border:3px solid #483d8b;
+}
+
+#course:hover{
+        border-right: none;
+        border-left: none;
+        cursor: pointer;
+        border:3px solid black;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+}
+.a{
+        width: 250px;
+        text-align: left;
+}
+
+.coursediv:hover{
+        /* border:3px solid black; */
+        border-left: none;
+        border-right: none;
+        /* background-color: red; */
+}
+
+.allData{
+        display: flex;
+}
+
+.TOPIC{
+        width: 75%;
+        margin-top: 100px;
+        margin-left: 25px;
+}
+
+.courses{
+        border: 3px solid black;
+}
+
+/* topic.css */
+
+.rhombus{
+        height: 23px;
+        width: 20px;
+        position: absolute;
+        left: 410px;
+        margin-top: 10px;
+    }
+    
+    .downimage{
+        height: 15px;
+        width: 15px;
+    }
+    
+    #drop{
+        border:3px solid black;
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        right: 100px;
+        margin-top: -45px;
+    }
+    
+    .topic{
+        text-align: left;
+        margin-left: 120px;
+        font-size: 20px;
+        font-weight: bold;
+        min-height: 10px;
+        max-height: 1000px;
+        overflow-y: scroll;
+    } 
+    
+    .topic:hover{
+        color: red;
+        cursor: pointer;
+    }
+
+    /* .css{
+        border: 2px solid red;
+    } */
+    
+    
+    .TopicDetails{
+        border:2px solid #200f90;
+    }
+    
+    
+    .subtopicnames{
+        border:1px solid rgb(64, 61, 61);
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        text-align: left;
+    }
+    .subTOPICname{
+        margin-left: 120px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 40px;
+        /* opacity: 0.9; */
+    }
+    
+    .red-topic {
+        color: red;
+      }
+      
+   
+      /* .null{
+        border: 10px solid red;
+      } */
+.content{
+        width: 92%;
+        margin: 50px 100px 100px 90px;
+        /* border: 2px solid green; */
+        text-align: left;
+        font-size: 22px;
+        font-family: sans-serif;
+}
+
+.backbtn{
+        padding: 10px 10px;
+        border-radius: 7px;
+        background-color: #ff7f50;
+        border: 1px solid #ff7f50;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-right: 1100px;
+}
+
+.backbtn:hover{
+        background-color: white;
+        color: #ff7f50;
+        box-shadow: 0 0 20px rgba(236, 7, 7, 0.7);
+}
